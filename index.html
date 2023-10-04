@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+   
+</head>
+<body>
+    <div  class="main ">
+        <div class="cal-border ">
+            <div class="output">
+                <input id="screen" class="screeni" type="text">
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <button class="btn" onclick="bclear()">AC</button>
+                    <button class="btn" onclick="bclick()">^</button>
+                    <button class="btn" onclick="bclick()">#</button>
+                    <button class="btn" onclick="bclick('/')">/</button>
+                    
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="bclick(7)">7</button>
+                    <button class="btn" onclick="bclick(8)">8</button>
+                    <button class="btn" onclick="bclick(9)">9</button>
+                    <button class="btn" onclick="bclick('*')">X</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="bclick(4)">4</button>
+                    <button class="btn" onclick="bclick(5)">5</button>
+                    <button class="btn" onclick="bclick(6)">6</button>
+                    <button class="btn" onclick="bclick('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="bclick(1)">1</button>
+                    <button class="btn" onclick="bclick(2)">2</button>
+                    <button class="btn" onclick="bclick(3)">3</button>
+                    <button class="btn" onclick="bclick('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="bclick('')">%</button>
+                    <button class="btn" onclick="bclick(0)">0</button>
+                    <button class="btn" onclick="bclick('.')">.</button>
+                    <button class="btn" onclick="equclick()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

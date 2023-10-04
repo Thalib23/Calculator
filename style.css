@@ -1,0 +1,35 @@
+.cal-border{
+    width: 350px;
+    height: 525px;
+    background: gray;
+    margin-left: 567px;
+    margin-top: 63px;
+    border-radius: 25px;
+    border-width: 10px;
+    border-color: blue;
+    
+}
+.screeni{
+    width: 80%;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 60px;
+    pointer-events: none;
+    font-size: 32px;
+    background: bisque;
+}
+.btn{
+    width:20px;
+    width: 46px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 38px;
+    border-radius: 22px;
+    color: aqua;
+    background: black;
+    font-size: 23px;
+    
+}
+button:hover{
+    background-color:blueviolet
+}
